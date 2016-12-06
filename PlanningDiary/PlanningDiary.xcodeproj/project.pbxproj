@@ -8,24 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		3DE1EDAA1DF69A4800BD3DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1EDA91DF69A4800BD3DDC /* main.m */; };
-		3DE1EDAD1DF69A4800BD3DDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1EDAC1DF69A4800BD3DDC /* AppDelegate.m */; };
-		3DE1EDB01DF69A4800BD3DDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1EDAF1DF69A4800BD3DDC /* ViewController.m */; };
-		3DE1EDB31DF69A4800BD3DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1EDB11DF69A4800BD3DDC /* Main.storyboard */; };
 		3DE1EDB51DF69A4800BD3DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1EDB41DF69A4800BD3DDC /* Assets.xcassets */; };
 		3DE1EDB81DF69A4800BD3DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1EDB61DF69A4800BD3DDC /* LaunchScreen.storyboard */; };
+		3DE1EDCC1DF6AFE200BD3DDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1EDC71DF6AFE200BD3DDC /* AppDelegate.m */; };
+		3DE1EDD01DF6B15200BD3DDC /* JPSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1EDCF1DF6B15200BD3DDC /* JPSTabBarController.m */; };
+		3DE1EDD61DF6B22500BD3DDC /* JPSCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1EDD51DF6B22500BD3DDC /* JPSCalendarController.m */; };
+		3DE1EDD91DF6B24200BD3DDC /* JPSTodayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1EDD81DF6B24200BD3DDC /* JPSTodayController.m */; };
+		3DE1EDDF1DF6B42B00BD3DDC /* tabbar_nearby_btn_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1EDDD1DF6B42B00BD3DDC /* tabbar_nearby_btn_n@2x.png */; };
+		3DE1EDE01DF6B42B00BD3DDC /* tabbar_nearby_btn_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1EDDE1DF6B42B00BD3DDC /* tabbar_nearby_btn_n@3x.png */; };
+		3DE1EDE31DF6B44000BD3DDC /* tabbar_nearby_btn_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1EDE11DF6B44000BD3DDC /* tabbar_nearby_btn_s@2x.png */; };
+		3DE1EDE41DF6B44000BD3DDC /* tabbar_nearby_btn_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1EDE21DF6B44000BD3DDC /* tabbar_nearby_btn_s@3x.png */; };
+		3DE1EDE71DF6B46200BD3DDC /* tabbar_mine_icon_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1EDE51DF6B46200BD3DDC /* tabbar_mine_icon_s@2x.png */; };
+		3DE1EDE81DF6B46200BD3DDC /* tabbar_mine_icon_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1EDE61DF6B46200BD3DDC /* tabbar_mine_icon_s@3x.png */; };
+		3DE1EDEB1DF6B46F00BD3DDC /* tabbar_mine_icon_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1EDE91DF6B46F00BD3DDC /* tabbar_mine_icon_n@2x.png */; };
+		3DE1EDEC1DF6B46F00BD3DDC /* tabbar_mine_icon_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1EDEA1DF6B46F00BD3DDC /* tabbar_mine_icon_n@3x.png */; };
+		3DE1EDEF1DF6BB9700BD3DDC /* JPSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1EDEE1DF6BB9700BD3DDC /* JPSNavigationController.m */; };
+		3DE1EDF51DF6C26A00BD3DDC /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1EDF41DF6C26A00BD3DDC /* UIImage+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3DE1EDA51DF69A4800BD3DDC /* PlanningDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanningDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE1EDA91DF69A4800BD3DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3DE1EDAB1DF69A4800BD3DDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3DE1EDAC1DF69A4800BD3DDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3DE1EDAE1DF69A4800BD3DDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3DE1EDAF1DF69A4800BD3DDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3DE1EDB21DF69A4800BD3DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DE1EDB41DF69A4800BD3DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DE1EDB71DF69A4800BD3DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DE1EDB91DF69A4800BD3DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE1EDC61DF6AFE200BD3DDC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../Other/AppDelegate.h; sourceTree = "<group>"; };
+		3DE1EDC71DF6AFE200BD3DDC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../Other/AppDelegate.m; sourceTree = "<group>"; };
+		3DE1EDCE1DF6B15200BD3DDC /* JPSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSTabBarController.h; sourceTree = "<group>"; };
+		3DE1EDCF1DF6B15200BD3DDC /* JPSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSTabBarController.m; sourceTree = "<group>"; };
+		3DE1EDD41DF6B22500BD3DDC /* JPSCalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSCalendarController.h; sourceTree = "<group>"; };
+		3DE1EDD51DF6B22500BD3DDC /* JPSCalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSCalendarController.m; sourceTree = "<group>"; };
+		3DE1EDD71DF6B24200BD3DDC /* JPSTodayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSTodayController.h; sourceTree = "<group>"; };
+		3DE1EDD81DF6B24200BD3DDC /* JPSTodayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSTodayController.m; sourceTree = "<group>"; };
+		3DE1EDDD1DF6B42B00BD3DDC /* tabbar_nearby_btn_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_nearby_btn_n@2x.png"; sourceTree = "<group>"; };
+		3DE1EDDE1DF6B42B00BD3DDC /* tabbar_nearby_btn_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_nearby_btn_n@3x.png"; sourceTree = "<group>"; };
+		3DE1EDE11DF6B44000BD3DDC /* tabbar_nearby_btn_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_nearby_btn_s@2x.png"; sourceTree = "<group>"; };
+		3DE1EDE21DF6B44000BD3DDC /* tabbar_nearby_btn_s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_nearby_btn_s@3x.png"; sourceTree = "<group>"; };
+		3DE1EDE51DF6B46200BD3DDC /* tabbar_mine_icon_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mine_icon_s@2x.png"; sourceTree = "<group>"; };
+		3DE1EDE61DF6B46200BD3DDC /* tabbar_mine_icon_s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mine_icon_s@3x.png"; sourceTree = "<group>"; };
+		3DE1EDE91DF6B46F00BD3DDC /* tabbar_mine_icon_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mine_icon_n@2x.png"; sourceTree = "<group>"; };
+		3DE1EDEA1DF6B46F00BD3DDC /* tabbar_mine_icon_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mine_icon_n@3x.png"; sourceTree = "<group>"; };
+		3DE1EDED1DF6BB9700BD3DDC /* JPSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSNavigationController.h; sourceTree = "<group>"; };
+		3DE1EDEE1DF6BB9700BD3DDC /* JPSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSNavigationController.m; sourceTree = "<group>"; };
+		3DE1EDF01DF6C09B00BD3DDC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3DE1EDF21DF6C18700BD3DDC /* JPSExtensionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSExtensionHeader.h; sourceTree = "<group>"; };
+		3DE1EDF31DF6C26A00BD3DDC /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		3DE1EDF41DF6C26A00BD3DDC /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		3DE1EDF81DF6C3F900BD3DDC /* JPSDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPSDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +87,7 @@
 		3DE1EDA71DF69A4800BD3DDC /* PlanningDiary */ = {
 			isa = PBXGroup;
 			children = (
-				3DE1EDAB1DF69A4800BD3DDC /* AppDelegate.h */,
-				3DE1EDAC1DF69A4800BD3DDC /* AppDelegate.m */,
-				3DE1EDAE1DF69A4800BD3DDC /* ViewController.h */,
-				3DE1EDAF1DF69A4800BD3DDC /* ViewController.m */,
-				3DE1EDB11DF69A4800BD3DDC /* Main.storyboard */,
-				3DE1EDB41DF69A4800BD3DDC /* Assets.xcassets */,
-				3DE1EDB61DF69A4800BD3DDC /* LaunchScreen.storyboard */,
-				3DE1EDB91DF69A4800BD3DDC /* Info.plist */,
+				3DE1EDBF1DF6AFE200BD3DDC /* Class */,
 				3DE1EDA81DF69A4800BD3DDC /* Supporting Files */,
 			);
 			path = PlanningDiary;
@@ -74,9 +96,162 @@
 		3DE1EDA81DF69A4800BD3DDC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3DE1EDB41DF69A4800BD3DDC /* Assets.xcassets */,
+				3DE1EDB61DF69A4800BD3DDC /* LaunchScreen.storyboard */,
+				3DE1EDB91DF69A4800BD3DDC /* Info.plist */,
 				3DE1EDA91DF69A4800BD3DDC /* main.m */,
+				3DE1EDF01DF6C09B00BD3DDC /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DE1EDBF1DF6AFE200BD3DDC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				3DE1EDC01DF6AFE200BD3DDC /* Calendar */,
+				3DE1EDC41DF6AFE200BD3DDC /* Main */,
+				3DE1EDC51DF6AFE200BD3DDC /* Other */,
+				3DE1EDC81DF6AFE200BD3DDC /* Today */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		3DE1EDC01DF6AFE200BD3DDC /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				3DE1EDC11DF6AFE200BD3DDC /* Controller */,
+				3DE1EDC21DF6AFE200BD3DDC /* Model */,
+				3DE1EDC31DF6AFE200BD3DDC /* View */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		3DE1EDC11DF6AFE200BD3DDC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DE1EDD41DF6B22500BD3DDC /* JPSCalendarController.h */,
+				3DE1EDD51DF6B22500BD3DDC /* JPSCalendarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DE1EDC21DF6AFE200BD3DDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DE1EDC31DF6AFE200BD3DDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DE1EDC41DF6AFE200BD3DDC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3DE1EDC61DF6AFE200BD3DDC /* AppDelegate.h */,
+				3DE1EDC71DF6AFE200BD3DDC /* AppDelegate.m */,
+				3DE1EDCE1DF6B15200BD3DDC /* JPSTabBarController.h */,
+				3DE1EDCF1DF6B15200BD3DDC /* JPSTabBarController.m */,
+				3DE1EDED1DF6BB9700BD3DDC /* JPSNavigationController.h */,
+				3DE1EDEE1DF6BB9700BD3DDC /* JPSNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3DE1EDC51DF6AFE200BD3DDC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3DE1EDF61DF6C3A500BD3DDC /* Configuration */,
+				3DE1EDF11DF6C15E00BD3DDC /* Category */,
+				3DE1EDDA1DF6B2C000BD3DDC /* Images */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3DE1EDC81DF6AFE200BD3DDC /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				3DE1EDC91DF6AFE200BD3DDC /* Controller */,
+				3DE1EDCA1DF6AFE200BD3DDC /* Model */,
+				3DE1EDCB1DF6AFE200BD3DDC /* View */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		3DE1EDC91DF6AFE200BD3DDC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DE1EDD71DF6B24200BD3DDC /* JPSTodayController.h */,
+				3DE1EDD81DF6B24200BD3DDC /* JPSTodayController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DE1EDCA1DF6AFE200BD3DDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DE1EDCB1DF6AFE200BD3DDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DE1EDDA1DF6B2C000BD3DDC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3DE1EDDB1DF6B3E000BD3DDC /* Calendar */,
+				3DE1EDDC1DF6B3E000BD3DDC /* Today */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3DE1EDDB1DF6B3E000BD3DDC /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				3DE1EDE11DF6B44000BD3DDC /* tabbar_nearby_btn_s@2x.png */,
+				3DE1EDE21DF6B44000BD3DDC /* tabbar_nearby_btn_s@3x.png */,
+				3DE1EDDD1DF6B42B00BD3DDC /* tabbar_nearby_btn_n@2x.png */,
+				3DE1EDDE1DF6B42B00BD3DDC /* tabbar_nearby_btn_n@3x.png */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		3DE1EDDC1DF6B3E000BD3DDC /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				3DE1EDE91DF6B46F00BD3DDC /* tabbar_mine_icon_n@2x.png */,
+				3DE1EDEA1DF6B46F00BD3DDC /* tabbar_mine_icon_n@3x.png */,
+				3DE1EDE51DF6B46200BD3DDC /* tabbar_mine_icon_s@2x.png */,
+				3DE1EDE61DF6B46200BD3DDC /* tabbar_mine_icon_s@3x.png */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		3DE1EDF11DF6C15E00BD3DDC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3DE1EDF21DF6C18700BD3DDC /* JPSExtensionHeader.h */,
+				3DE1EDF31DF6C26A00BD3DDC /* UIImage+Extension.h */,
+				3DE1EDF41DF6C26A00BD3DDC /* UIImage+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3DE1EDF61DF6C3A500BD3DDC /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3DE1EDF81DF6C3F900BD3DDC /* JPSDefine.h */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +314,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DE1EDB81DF69A4800BD3DDC /* LaunchScreen.storyboard in Resources */,
+				3DE1EDEC1DF6B46F00BD3DDC /* tabbar_mine_icon_n@3x.png in Resources */,
 				3DE1EDB51DF69A4800BD3DDC /* Assets.xcassets in Resources */,
-				3DE1EDB31DF69A4800BD3DDC /* Main.storyboard in Resources */,
+				3DE1EDE81DF6B46200BD3DDC /* tabbar_mine_icon_s@3x.png in Resources */,
+				3DE1EDE31DF6B44000BD3DDC /* tabbar_nearby_btn_s@2x.png in Resources */,
+				3DE1EDE71DF6B46200BD3DDC /* tabbar_mine_icon_s@2x.png in Resources */,
+				3DE1EDDF1DF6B42B00BD3DDC /* tabbar_nearby_btn_n@2x.png in Resources */,
+				3DE1EDEB1DF6B46F00BD3DDC /* tabbar_mine_icon_n@2x.png in Resources */,
+				3DE1EDE41DF6B44000BD3DDC /* tabbar_nearby_btn_s@3x.png in Resources */,
+				3DE1EDE01DF6B42B00BD3DDC /* tabbar_nearby_btn_n@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,23 +333,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DE1EDB01DF69A4800BD3DDC /* ViewController.m in Sources */,
-				3DE1EDAD1DF69A4800BD3DDC /* AppDelegate.m in Sources */,
+				3DE1EDCC1DF6AFE200BD3DDC /* AppDelegate.m in Sources */,
+				3DE1EDF51DF6C26A00BD3DDC /* UIImage+Extension.m in Sources */,
+				3DE1EDD01DF6B15200BD3DDC /* JPSTabBarController.m in Sources */,
+				3DE1EDD91DF6B24200BD3DDC /* JPSTodayController.m in Sources */,
+				3DE1EDEF1DF6BB9700BD3DDC /* JPSNavigationController.m in Sources */,
 				3DE1EDAA1DF69A4800BD3DDC /* main.m in Sources */,
+				3DE1EDD61DF6B22500BD3DDC /* JPSCalendarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3DE1EDB11DF69A4800BD3DDC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3DE1EDB21DF69A4800BD3DDC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3DE1EDB61DF69A4800BD3DDC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -274,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B5UXG3YX89;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PlanningDiary/PrefixHeader.pch";
 				INFOPLIST_FILE = PlanningDiary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jepson.PlanningDiary;
@@ -286,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B5UXG3YX89;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PlanningDiary/PrefixHeader.pch";
 				INFOPLIST_FILE = PlanningDiary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jepson.PlanningDiary;

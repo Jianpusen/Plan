@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JPSNavigationController.h
 //  PlanningDiary
 //
 //  Created by 庄鹏泽 on 16/12/6.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JPSNavigationController : UINavigationController
 
 @end
-
