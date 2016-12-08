@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="JPSNotepadCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="踢球" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhT-IU-PvQ">
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.12156862745098039" green="0.13725490196078433" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今天要在人民广场踢球啊，对症双反是深圳对对广州队，记得收市后衣服手套足球什么的扥等的呢" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsE-1t-aCs">
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.19607843137254902" green="0.22745098039215686" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJN-uT-YXy">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="Ypz-pg-rQY"/>
+                        </constraints>
+                        <state key="normal" title="提醒">
+                            <color key="titleColor" red="0.4392156862745098" green="0.46274509803921571" blue="0.49411764705882355" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBd-mo-cUc">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="JYA-ja-WdX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <state key="normal" title="完成">
+                            <color key="titleColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ipK-Wn-Utv" userLabel="line">
+                        <color key="backgroundColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="dS6-eb-J19"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RbY-nE-x6R" userLabel="completeLine">
+                        <color key="backgroundColor" red="1" green="0.21931701335231513" blue="0.23739030597327937" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="1QQ-U9-1Tp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uhT-IU-PvQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="1mL-oM-5H6"/>
+                    <constraint firstItem="NsE-1t-aCs" firstAttribute="leading" secondItem="uhT-IU-PvQ" secondAttribute="leading" id="3LO-9J-WR1"/>
+                    <constraint firstItem="LBd-mo-cUc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6EU-iQ-iJd"/>
+                    <constraint firstItem="qJN-uT-YXy" firstAttribute="leading" secondItem="NsE-1t-aCs" secondAttribute="trailing" constant="5" id="7IF-wt-Wgf"/>
+                    <constraint firstItem="qJN-uT-YXy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="9hu-S6-X6B"/>
+                    <constraint firstAttribute="bottom" secondItem="ipK-Wn-Utv" secondAttribute="bottom" id="AdN-qS-68t"/>
+                    <constraint firstAttribute="trailing" secondItem="qJN-uT-YXy" secondAttribute="trailing" id="FwQ-c1-AEh"/>
+                    <constraint firstItem="qJN-uT-YXy" firstAttribute="leading" secondItem="RbY-nE-x6R" secondAttribute="trailing" id="KmJ-w2-gbA"/>
+                    <constraint firstAttribute="bottom" secondItem="LBd-mo-cUc" secondAttribute="bottom" id="ODR-Vt-0pm"/>
+                    <constraint firstItem="ipK-Wn-Utv" firstAttribute="leading" secondItem="LBd-mo-cUc" secondAttribute="trailing" id="Uiz-mS-zzT"/>
+                    <constraint firstItem="RbY-nE-x6R" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="d08-ok-qAx"/>
+                    <constraint firstItem="qJN-uT-YXy" firstAttribute="leading" secondItem="ipK-Wn-Utv" secondAttribute="trailing" id="khb-6L-6eO"/>
+                    <constraint firstItem="uhT-IU-PvQ" firstAttribute="leading" secondItem="LBd-mo-cUc" secondAttribute="trailing" id="lIs-t7-9el"/>
+                    <constraint firstItem="NsE-1t-aCs" firstAttribute="top" secondItem="uhT-IU-PvQ" secondAttribute="bottom" constant="3" id="oxX-GJ-FhE"/>
+                    <constraint firstItem="RbY-nE-x6R" firstAttribute="leading" secondItem="LBd-mo-cUc" secondAttribute="trailing" id="pDz-ie-NWa"/>
+                    <constraint firstAttribute="bottom" secondItem="qJN-uT-YXy" secondAttribute="bottom" id="qXQ-I7-U7D"/>
+                    <constraint firstItem="LBd-mo-cUc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="sZW-6r-qiz"/>
+                </constraints>
+            </tableViewCellContentView>
+        </tableViewCell>
+    </objects>
+</document>

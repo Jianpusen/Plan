@@ -30,7 +30,7 @@
     //日期
     self.dateLabel = [[UILabel alloc] initWithFrame:self.cellView.bounds];
     [self.dateLabel setTextAlignment:NSTextAlignmentCenter];
-    [self.dateLabel setFont:[UIFont systemFontOfSize:17]];
+    [self.dateLabel setFont:[UIFont systemFontOfSize:20]];
     [self.cellView addSubview:self.dateLabel];
     
 }

@@ -8,6 +8,7 @@
 
 #import "JPSCalendarController.h"
 #import "JPSCalendarView.h"
+#import "JPSNotepadController.h"
 @interface JPSCalendarController ()
 
 @end
@@ -32,6 +33,10 @@
     calendarPicker.calendarBlock = ^(NSInteger day, NSInteger month, NSInteger year){
         
         NSLog(@"%zd-%zd-%zd", year,month,day);
+        JPSNotepadController *noteContrl = [[JPSNotepadController alloc] init];
+        noteContrl.titleStr = [NSString stringWithFormat:@"%zd-%zd-%zd",year,month,day];
+        [self.navigationController pushViewController:noteContrl animated:YES];
+    
     };
 }
 - (void)didReceiveMemoryWarning {

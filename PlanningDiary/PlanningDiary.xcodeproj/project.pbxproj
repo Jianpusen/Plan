@@ -13,6 +13,10 @@
 		3D40D6881DF8F5DF007CF8E7 /* bt_previous@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D40D6861DF8F5DF007CF8E7 /* bt_previous@2x.png */; };
 		3D40D68B1DF90960007CF8E7 /* CalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D40D68A1DF90960007CF8E7 /* CalendarModel.m */; };
 		3D40D68E1DF909BA007CF8E7 /* JPSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D40D68D1DF909BA007CF8E7 /* JPSCalendarCell.m */; };
+		3D9290D01DF93BDA007C1F83 /* JPSNotepadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9290CF1DF93BDA007C1F83 /* JPSNotepadController.m */; };
+		3D9290D51DF93C69007C1F83 /* JPSNotepadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9290D31DF93C69007C1F83 /* JPSNotepadCell.m */; };
+		3D9290D61DF93C69007C1F83 /* JPSNotepadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D9290D41DF93C69007C1F83 /* JPSNotepadCell.xib */; };
+		3D9290D91DF95A60007C1F83 /* JPSEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9290D81DF95A60007C1F83 /* JPSEditController.m */; };
 		3DE1EDAA1DF69A4800BD3DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1EDA91DF69A4800BD3DDC /* main.m */; };
 		3DE1EDB51DF69A4800BD3DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1EDB41DF69A4800BD3DDC /* Assets.xcassets */; };
 		3DE1EDB81DF69A4800BD3DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1EDB61DF69A4800BD3DDC /* LaunchScreen.storyboard */; };
@@ -42,6 +46,13 @@
 		3D40D68A1DF90960007CF8E7 /* CalendarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarModel.m; sourceTree = "<group>"; };
 		3D40D68C1DF909BA007CF8E7 /* JPSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSCalendarCell.h; sourceTree = "<group>"; };
 		3D40D68D1DF909BA007CF8E7 /* JPSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSCalendarCell.m; sourceTree = "<group>"; };
+		3D9290CE1DF93BDA007C1F83 /* JPSNotepadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSNotepadController.h; sourceTree = "<group>"; };
+		3D9290CF1DF93BDA007C1F83 /* JPSNotepadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSNotepadController.m; sourceTree = "<group>"; };
+		3D9290D21DF93C69007C1F83 /* JPSNotepadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSNotepadCell.h; sourceTree = "<group>"; };
+		3D9290D31DF93C69007C1F83 /* JPSNotepadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSNotepadCell.m; sourceTree = "<group>"; };
+		3D9290D41DF93C69007C1F83 /* JPSNotepadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JPSNotepadCell.xib; sourceTree = "<group>"; };
+		3D9290D71DF95A60007C1F83 /* JPSEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSEditController.h; sourceTree = "<group>"; };
+		3D9290D81DF95A60007C1F83 /* JPSEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSEditController.m; sourceTree = "<group>"; };
 		3DE1EDA51DF69A4800BD3DDC /* PlanningDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanningDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE1EDA91DF69A4800BD3DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DE1EDB41DF69A4800BD3DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,6 +94,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D9290CD1DF93B76007C1F83 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				3D9290CE1DF93BDA007C1F83 /* JPSNotepadController.h */,
+				3D9290CF1DF93BDA007C1F83 /* JPSNotepadController.m */,
+				3D9290D71DF95A60007C1F83 /* JPSEditController.h */,
+				3D9290D81DF95A60007C1F83 /* JPSEditController.m */,
+			);
+			name = Note;
+			sourceTree = "<group>";
+		};
+		3D9290D11DF93C3C007C1F83 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				3D9290D21DF93C69007C1F83 /* JPSNotepadCell.h */,
+				3D9290D31DF93C69007C1F83 /* JPSNotepadCell.m */,
+				3D9290D41DF93C69007C1F83 /* JPSNotepadCell.xib */,
+			);
+			name = Note;
+			sourceTree = "<group>";
+		};
 		3DE1ED9C1DF69A4800BD3DDC = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +176,7 @@
 		3DE1EDC11DF6AFE200BD3DDC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3D9290CD1DF93B76007C1F83 /* Note */,
 				3DE1EDD41DF6B22500BD3DDC /* JPSCalendarController.h */,
 				3DE1EDD51DF6B22500BD3DDC /* JPSCalendarController.m */,
 			);
@@ -162,6 +195,7 @@
 		3DE1EDC31DF6AFE200BD3DDC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3D9290D11DF93C3C007C1F83 /* Note */,
 				3D40D6801DF8F4DE007CF8E7 /* JPSCalendarView.h */,
 				3D40D6811DF8F4DE007CF8E7 /* JPSCalendarView.m */,
 				3D40D6831DF8F582007CF8E7 /* JPSCalendarView.xib */,
@@ -350,6 +384,7 @@
 				3DE1EDE41DF6B44000BD3DDC /* tabbar_nearby_btn_s@3x.png in Resources */,
 				3DE1EDE01DF6B42B00BD3DDC /* tabbar_nearby_btn_n@3x.png in Resources */,
 				3D40D6871DF8F5DF007CF8E7 /* bt_next@2x.png in Resources */,
+				3D9290D61DF93C69007C1F83 /* JPSNotepadCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,9 +398,12 @@
 				3D40D68B1DF90960007CF8E7 /* CalendarModel.m in Sources */,
 				3D40D68E1DF909BA007CF8E7 /* JPSCalendarCell.m in Sources */,
 				3DE1EDCC1DF6AFE200BD3DDC /* AppDelegate.m in Sources */,
+				3D9290D01DF93BDA007C1F83 /* JPSNotepadController.m in Sources */,
+				3D9290D91DF95A60007C1F83 /* JPSEditController.m in Sources */,
 				3DE1EDF51DF6C26A00BD3DDC /* UIImage+Extension.m in Sources */,
 				3DE1EDD01DF6B15200BD3DDC /* JPSTabBarController.m in Sources */,
 				3DE1EDD91DF6B24200BD3DDC /* JPSTodayController.m in Sources */,
+				3D9290D51DF93C69007C1F83 /* JPSNotepadCell.m in Sources */,
 				3DE1EDEF1DF6BB9700BD3DDC /* JPSNavigationController.m in Sources */,
 				3DE1EDAA1DF69A4800BD3DDC /* main.m in Sources */,
 				3D40D6821DF8F4DE007CF8E7 /* JPSCalendarView.m in Sources */,
