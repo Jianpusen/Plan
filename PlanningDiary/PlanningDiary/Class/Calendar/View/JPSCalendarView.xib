@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bh9-IO-9pB" customClass="JPSCalendarView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kQX-5m-RAI">
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LrH-zc-Puo">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="16" id="8Pj-Ct-ZvE"/>
+                                <constraint firstAttribute="height" constant="22" id="ANS-jU-Jxb"/>
+                            </constraints>
+                            <state key="normal" image="bt_previous.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JjN-qu-dl4">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="Lhc-QN-B0b"/>
+                                <constraint firstAttribute="width" constant="16" id="f63-o2-xYQ"/>
+                            </constraints>
+                            <state key="normal" image="bt_next.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Vs-BL-UmI">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.12549019610000001" green="0.76862745099999996" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="1Vs-BL-UmI" firstAttribute="leading" secondItem="LrH-zc-Puo" secondAttribute="trailing" constant="8" id="0Qb-3g-a7N"/>
+                        <constraint firstItem="1Vs-BL-UmI" firstAttribute="top" secondItem="kQX-5m-RAI" secondAttribute="top" constant="11" id="28d-hy-y4m"/>
+                        <constraint firstItem="LrH-zc-Puo" firstAttribute="top" secondItem="kQX-5m-RAI" secondAttribute="top" constant="11" id="4Gu-b3-uiZ"/>
+                        <constraint firstItem="JjN-qu-dl4" firstAttribute="leading" secondItem="1Vs-BL-UmI" secondAttribute="trailing" constant="8" id="6DE-BE-J4d"/>
+                        <constraint firstAttribute="trailing" secondItem="JjN-qu-dl4" secondAttribute="trailing" constant="8" id="Wmn-qw-XvS"/>
+                        <constraint firstItem="JjN-qu-dl4" firstAttribute="top" secondItem="kQX-5m-RAI" secondAttribute="top" constant="11" id="gLF-Fb-JbU"/>
+                        <constraint firstAttribute="bottom" secondItem="1Vs-BL-UmI" secondAttribute="bottom" constant="12" id="vDS-SI-Vub"/>
+                        <constraint firstAttribute="height" constant="44" id="ys8-Ts-cRr"/>
+                        <constraint firstItem="LrH-zc-Puo" firstAttribute="leading" secondItem="kQX-5m-RAI" secondAttribute="leading" constant="8" id="z3w-7d-2Ud"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="6tP-gf-Bv3">
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="vIR-64-wtd">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="bh9-IO-9pB" id="0Ab-IR-e5U"/>
+                        <outlet property="delegate" destination="bh9-IO-9pB" id="U3s-32-6xP"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="6tP-gf-Bv3" firstAttribute="leading" secondItem="bh9-IO-9pB" secondAttribute="leading" id="2f5-bt-KRZ"/>
+                <constraint firstItem="6tP-gf-Bv3" firstAttribute="top" secondItem="kQX-5m-RAI" secondAttribute="bottom" id="54B-7o-zAg"/>
+                <constraint firstAttribute="trailing" secondItem="kQX-5m-RAI" secondAttribute="trailing" id="DYj-G6-MWg"/>
+                <constraint firstItem="kQX-5m-RAI" firstAttribute="leading" secondItem="bh9-IO-9pB" secondAttribute="leading" id="OOu-5X-W4K"/>
+                <constraint firstAttribute="trailing" secondItem="6tP-gf-Bv3" secondAttribute="trailing" id="PMt-PX-8CD"/>
+                <constraint firstAttribute="bottom" secondItem="6tP-gf-Bv3" secondAttribute="bottom" id="VsQ-BL-Efc"/>
+                <constraint firstItem="kQX-5m-RAI" firstAttribute="top" secondItem="bh9-IO-9pB" secondAttribute="top" id="aUb-yB-bls"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="collectionView" destination="6tP-gf-Bv3" id="fpD-fz-zYX"/>
+                <outlet property="monthLabel" destination="1Vs-BL-UmI" id="jpG-XG-fy0"/>
+                <outlet property="nextButton" destination="JjN-qu-dl4" id="dHw-s0-dRc"/>
+                <outlet property="previousButton" destination="LrH-zc-Puo" id="3NG-Rx-LP7"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="bt_next.png" width="16" height="16"/>
+        <image name="bt_previous.png" width="16" height="16"/>
+    </resources>
+</document>

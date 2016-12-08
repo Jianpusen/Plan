@@ -7,7 +7,7 @@
 //
 
 #import "JPSCalendarController.h"
-
+#import "JPSCalendarView.h"
 @interface JPSCalendarController ()
 
 @end
@@ -20,9 +20,20 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"日历";
     
+    [self setupCalendarView];
    
 }
-
+- (void)setupCalendarView{
+    
+    JPSCalendarView *calendarPicker = [JPSCalendarView showOnView:self.view];
+    calendarPicker.today = [NSDate date];
+    calendarPicker.date = calendarPicker.today;
+    calendarPicker.frame = CGRectMake(0, 64, k_SCREEN_W, k_SCREEN_W+50);
+    calendarPicker.calendarBlock = ^(NSInteger day, NSInteger month, NSInteger year){
+        
+        NSLog(@"%zd-%zd-%zd", year,month,day);
+    };
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

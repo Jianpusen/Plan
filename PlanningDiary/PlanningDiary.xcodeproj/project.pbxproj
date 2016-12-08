@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D40D6821DF8F4DE007CF8E7 /* JPSCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D40D6811DF8F4DE007CF8E7 /* JPSCalendarView.m */; };
+		3D40D6841DF8F582007CF8E7 /* JPSCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D40D6831DF8F582007CF8E7 /* JPSCalendarView.xib */; };
+		3D40D6871DF8F5DF007CF8E7 /* bt_next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D40D6851DF8F5DF007CF8E7 /* bt_next@2x.png */; };
+		3D40D6881DF8F5DF007CF8E7 /* bt_previous@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D40D6861DF8F5DF007CF8E7 /* bt_previous@2x.png */; };
+		3D40D68B1DF90960007CF8E7 /* CalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D40D68A1DF90960007CF8E7 /* CalendarModel.m */; };
+		3D40D68E1DF909BA007CF8E7 /* JPSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D40D68D1DF909BA007CF8E7 /* JPSCalendarCell.m */; };
 		3DE1EDAA1DF69A4800BD3DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1EDA91DF69A4800BD3DDC /* main.m */; };
 		3DE1EDB51DF69A4800BD3DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1EDB41DF69A4800BD3DDC /* Assets.xcassets */; };
 		3DE1EDB81DF69A4800BD3DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1EDB61DF69A4800BD3DDC /* LaunchScreen.storyboard */; };
@@ -27,6 +33,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D40D6801DF8F4DE007CF8E7 /* JPSCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSCalendarView.h; sourceTree = "<group>"; };
+		3D40D6811DF8F4DE007CF8E7 /* JPSCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSCalendarView.m; sourceTree = "<group>"; };
+		3D40D6831DF8F582007CF8E7 /* JPSCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JPSCalendarView.xib; sourceTree = "<group>"; };
+		3D40D6851DF8F5DF007CF8E7 /* bt_next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_next@2x.png"; sourceTree = "<group>"; };
+		3D40D6861DF8F5DF007CF8E7 /* bt_previous@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_previous@2x.png"; sourceTree = "<group>"; };
+		3D40D6891DF90960007CF8E7 /* CalendarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarModel.h; sourceTree = "<group>"; };
+		3D40D68A1DF90960007CF8E7 /* CalendarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarModel.m; sourceTree = "<group>"; };
+		3D40D68C1DF909BA007CF8E7 /* JPSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSCalendarCell.h; sourceTree = "<group>"; };
+		3D40D68D1DF909BA007CF8E7 /* JPSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSCalendarCell.m; sourceTree = "<group>"; };
 		3DE1EDA51DF69A4800BD3DDC /* PlanningDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanningDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE1EDA91DF69A4800BD3DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DE1EDB41DF69A4800BD3DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -138,6 +153,8 @@
 		3DE1EDC21DF6AFE200BD3DDC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3D40D6891DF90960007CF8E7 /* CalendarModel.h */,
+				3D40D68A1DF90960007CF8E7 /* CalendarModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -145,6 +162,11 @@
 		3DE1EDC31DF6AFE200BD3DDC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3D40D6801DF8F4DE007CF8E7 /* JPSCalendarView.h */,
+				3D40D6811DF8F4DE007CF8E7 /* JPSCalendarView.m */,
+				3D40D6831DF8F582007CF8E7 /* JPSCalendarView.xib */,
+				3D40D68C1DF909BA007CF8E7 /* JPSCalendarCell.h */,
+				3D40D68D1DF909BA007CF8E7 /* JPSCalendarCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -217,6 +239,8 @@
 		3DE1EDDB1DF6B3E000BD3DDC /* Calendar */ = {
 			isa = PBXGroup;
 			children = (
+				3D40D6851DF8F5DF007CF8E7 /* bt_next@2x.png */,
+				3D40D6861DF8F5DF007CF8E7 /* bt_previous@2x.png */,
 				3DE1EDE11DF6B44000BD3DDC /* tabbar_nearby_btn_s@2x.png */,
 				3DE1EDE21DF6B44000BD3DDC /* tabbar_nearby_btn_s@3x.png */,
 				3DE1EDDD1DF6B42B00BD3DDC /* tabbar_nearby_btn_n@2x.png */,
@@ -320,9 +344,12 @@
 				3DE1EDE31DF6B44000BD3DDC /* tabbar_nearby_btn_s@2x.png in Resources */,
 				3DE1EDE71DF6B46200BD3DDC /* tabbar_mine_icon_s@2x.png in Resources */,
 				3DE1EDDF1DF6B42B00BD3DDC /* tabbar_nearby_btn_n@2x.png in Resources */,
+				3D40D6881DF8F5DF007CF8E7 /* bt_previous@2x.png in Resources */,
 				3DE1EDEB1DF6B46F00BD3DDC /* tabbar_mine_icon_n@2x.png in Resources */,
+				3D40D6841DF8F582007CF8E7 /* JPSCalendarView.xib in Resources */,
 				3DE1EDE41DF6B44000BD3DDC /* tabbar_nearby_btn_s@3x.png in Resources */,
 				3DE1EDE01DF6B42B00BD3DDC /* tabbar_nearby_btn_n@3x.png in Resources */,
+				3D40D6871DF8F5DF007CF8E7 /* bt_next@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,12 +360,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D40D68B1DF90960007CF8E7 /* CalendarModel.m in Sources */,
+				3D40D68E1DF909BA007CF8E7 /* JPSCalendarCell.m in Sources */,
 				3DE1EDCC1DF6AFE200BD3DDC /* AppDelegate.m in Sources */,
 				3DE1EDF51DF6C26A00BD3DDC /* UIImage+Extension.m in Sources */,
 				3DE1EDD01DF6B15200BD3DDC /* JPSTabBarController.m in Sources */,
 				3DE1EDD91DF6B24200BD3DDC /* JPSTodayController.m in Sources */,
 				3DE1EDEF1DF6BB9700BD3DDC /* JPSNavigationController.m in Sources */,
 				3DE1EDAA1DF69A4800BD3DDC /* main.m in Sources */,
+				3D40D6821DF8F4DE007CF8E7 /* JPSCalendarView.m in Sources */,
 				3DE1EDD61DF6B22500BD3DDC /* JPSCalendarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +522,7 @@
 				3DE1EDBE1DF69A4800BD3DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
